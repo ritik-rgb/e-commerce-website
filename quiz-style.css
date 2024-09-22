@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: rgb(247, 242, 242);
+}
+.image-saree{
+    flex: 1 1 30rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0.1rem 2rem rgba(0, 0, 0, 0.2);
+  height: 40rem;
+margin: 3vw 3.5vw;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+.main{
+    /* height: 400px;
+    width: 350px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 1.5vw;
+    position: absolute;
+    border-radius: 1vw;
+    box-shadow: 0 0 20px black;
+    /* display: none; */
+    z-index: 0;
+
+}
+.main .image-first{
+    /* display: none; */
+}
+.main .image-first img{
+    height: 380px;
+    width: 340px;
+   
+    /* object-fit: cover; */
+}
+.main .image-first h1{
+    font-size: 1.4rem;
+    font-family: futura;
+    color: black;
+text-transform: uppercase;
+padding: 0.2vw 1vw;
+}
+.main .image-first span{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.main .image-first span i{
+color: rgb(255, 255, 0);
+font-size: 1.2rem;
+
+}
+.main .image-first span h3{
+    font-size: 1.3rem;
+    color: black;
+    padding: 0.1vw 1.5vw;
+}
+.main .image-first .btn span button{
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 200;
+    border: 1px solid black;
+    padding: 0.1vw 0.2vw;
+    border-radius: 0.4vw;
+   background-color: black;
+}
+.main .image-first .btn{
+    padding: 1vw 0.3vw;
+}
+.main .image-first .btn span button:hover{
+    cursor: pointer;
+    background-color: orangered;
+}
+
+.main .image-first .btn span button i{
+    font-size: 1vw;
+}
+.main .image-first  .submit{
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 0.5vw 0.3vw;
+}
+.main .image-first  .submit button{
+    font-size: 1.2rem;
+    font-family: futura;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 200;
+    border: 1px solid black;
+    padding: 0.3vw 0.4vw;
+    border-radius: 0.4vw;
+   background-color: rgb(252, 61, 4);
+}
+.main .image-first  .submit button:hover{
+   background-color: #fe8d03;
+   cursor: pointer;
+   color: black;
+   width: 150px;
+}
+
+/* -----------Quiz------------- */
+.quiz-sec{
+    background: none;
+    /* background-color: rgba(235, 242, 243, 0.523); */
+}
+.quiz{
+    top: 2%;
+  background-color: rgba(0, 225, 255, 0.523);
+    backdrop-filter: blur(20px);
+
+    position: absolute; 
+    /* height: 550px; */
+    width: 300px;
+    padding: 0.7vw 1vw;
+    border: 2px solid black;
+    border-radius: 10px;
+box-shadow: 0 0 10px black;
+z-index: 1000;
+display: none;
+}
+.btn1{
+    font-size: 0.7vw;
+    padding: 0.3vw 0.3vw;
+    background-color: rgb(221, 54, 57);
+    border-radius: 0.3vw;
+    color: #fff;
+}
+.btn1:hover{
+    background-color: rgba(75, 251, 6, 0.871);
+    color: rgb(9, 8, 8);
+    box-shadow: 0 0 10px black;
+}
+ .submit1{
+    /* font-size: 0.7vw;
+    padding: 0.3vw 0.3vw;
+    background-color: rgb(221, 54, 57);
+    border-radius: 0.3vw;
+    color: #fff; */
+    
+
+}
+.quiz .submit1 button{
+    font-size: 1.8vw;
+    padding: 0.8vw 0.9vw;
+    background-color: rgb(227, 128, 207);
+    border-radius: 0.3vw;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.quiz .submit1 button:hover{
+    background-color: rgb(248, 109, 2);
+    color: #ffffff;
+    box-shadow: 0 0 10px black;
+    border: 2px #fff;
+}
+-----------reward-sec----------
+ .reward-sec{
+height: 100vh;
+width: 100vw;
+background-color: black;
+}
+.reward-sec img{
+    height: 190px;
+    width: 400px;
+    z-index: 1001;
+position: absolute;
+object-fit: cover;
+background-position: center;
+background-size: cover;
+box-shadow: 0 0 30px black;
+border-radius: 10px;
+ /* display: none;  */
+}
+
+.reward-sec  button i{
+    position: absolute;
+/*   
+    background-color: #fe8d03; */
+    font-size: 1.7rem;
+    color: #040404;
+    z-index:9999;
+    padding: 0.3vw 0.6vw;
+    cursor: pointer;
+}
